@@ -106,7 +106,7 @@
 
 <%INIT>
 my $title = loc("Search for tickets");
-use RT::Search::Googleish;
+use RT::Search::Simple;
 
 if ($q && !$Query) {
     my $tickets = RT::Tickets->new( $session{'CurrentUser'} );
@@ -123,7 +123,7 @@ if ($q && !$Query) {
 
     $m->callback( %ARGS, CallbackName => 'SearchArgs', args => \%args);
 
-    my $search = RT::Search::Googleish->new(%args);
+    my $search = RT::Search::Simple->new(%args);
 
     my $id = $session{'CurrentUser'}->id;
     $Query = join ' AND ', $search->QueryToSQL(), "( Watcher.id = $id )";
