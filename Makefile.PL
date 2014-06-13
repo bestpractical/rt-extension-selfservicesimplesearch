@@ -6,4 +6,5 @@ all_from 'lib/RT/Extension/SelfServiceSimpleSearch.pm';
 readme_from 'lib/RT/Extension/SelfServiceSimpleSearch.pm';
 license  'gplv2';
 
+sign;
 WriteAll;

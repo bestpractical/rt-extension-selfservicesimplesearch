@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package RT::Extension::SelfServiceSimpleSearch;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 NAME
 
@@ -54,7 +54,7 @@ L<rt.cpan.org|http://rt.cpan.org/Public/Dist/Display.html?Name=RT-Extension-Self
 
 =head1 LICENSE AND COPYRIGHT
 
-This software is Copyright 2013 Best Practical Solutions, LLC.
+This software is Copyright 2013-2014 Best Practical Solutions, LLC.
 
 This is free software, licensed under:
 
