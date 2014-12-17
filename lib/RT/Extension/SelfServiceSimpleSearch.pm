@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package RT::Extension::SelfServiceSimpleSearch;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 =head1 NAME
 
