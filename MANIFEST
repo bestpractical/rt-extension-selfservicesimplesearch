@@ -1,3 +1,4 @@
+Changes
 html/Callbacks/SelfServiceSimpleSearch/Elements/Tabs/SelfService
 html/SelfService/SimpleSearch.html
 inc/Module/Install.pm
@@ -12,7 +13,6 @@ inc/Module/Install/RTx.pm
 inc/Module/Install/RTx/Runtime.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
-inc/unicore/Name.pm
 inc/YAML/Tiny.pm
 lib/RT/Extension/SelfServiceSimpleSearch.pm
 Makefile.PL
