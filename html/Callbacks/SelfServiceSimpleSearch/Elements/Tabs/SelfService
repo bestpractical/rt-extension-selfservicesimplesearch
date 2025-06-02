@@ -47,7 +47,9 @@
 %# END BPS TAGGED BLOCK }}}
 
 <%INIT>
-my $tickets = Menu->child('tickets');
-$tickets->child( simple_search => title => loc('Simple Search'), path => "/SelfService/SimpleSearch.html" );
-
+# RT < 6.0.0 compatibility
+if ( RT::Handle::cmp_version($RT::VERSION, '6.0.0') < 0 ) {
+    my $tickets = Menu->child('tickets');
+    $tickets->child( simple_search => title => loc('Simple Search'), path => "/SelfService/SimpleSearch.html" );
+}
 </%INIT>
