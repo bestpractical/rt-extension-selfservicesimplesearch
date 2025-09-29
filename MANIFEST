@@ -1,5 +1,5 @@
 Changes
-html/Callbacks/SelfServiceSimpleSearch/Elements/Tabs/SelfService
+html/Callbacks/SelfServiceSimpleSearch/Elements/Header/SelfServiceMainNav
 html/SelfService/SimpleSearch.html
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
