@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package RT::Extension::SelfServiceSimpleSearch;
 
-our $VERSION = '1.02';
+our $VERSION = '2.00';
 
 =head1 NAME
 
@@ -18,7 +18,7 @@ the stock SelfService pages do.
 
 =head1 RT VERSION
 
-Works with RT 4 and 5.0.
+Works with RT 6.0. For older RTs install the latest 1.X version.
 
 =head1 INSTALLATION
 
@@ -32,7 +32,7 @@ Works with RT 4 and 5.0.
 
 May need root permissions
 
-=item Edit your F</opt/rt5/etc/RT_SiteConfig.pm>
+=item Edit your F</opt/rt6/etc/RT_SiteConfig.pm>
 
 Add this line:
 
@@ -40,7 +40,7 @@ Add this line:
 
 =item Clear your mason cache
 
-    rm -rf /opt/rt5/var/mason_data/obj
+    rm -rf /opt/rt6/var/mason_data/obj
 
 =item Restart your webserver
 
@@ -62,7 +62,7 @@ or via the web at
 
 =head1 LICENSE AND COPYRIGHT
 
-This software is Copyright (c) 2014-2022 by Best Practical Solutions
+This software is Copyright (c) 2014-2025 by Best Practical Solutions
 
 This is free software, licensed under:
 
